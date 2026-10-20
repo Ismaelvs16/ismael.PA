@@ -194,3 +194,23 @@ p {
     /* Remove o espaço abaixo do último parágrafo */
     margin-bottom: 0;
   }
+
+  @media (max-width: 768) {
+
+    .informacoes {
+      /* Organiza os cartões um abaixo do outro 
+      quando a tela for pequena */
+      grid-template-columns: 1fr;
+    }
+
+
+    .conteudo h2{
+      /* diminui o tamanho do título no celular */
+      font-size:1.6rem;
+    }
+
+    .info-card {
+      /* Ajusta o espaçamento  internos  dos cartões */
+      padding: 22px;
+    }
+  }
