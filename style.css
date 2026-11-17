@@ -238,3 +238,11 @@ p {
     z-index: 1;
     text-align: center;
   }
+
+  /* flex wrap fazem os links mudarem de linha quando faltar espaço. */
+  .menu-estudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
